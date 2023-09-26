@@ -1,0 +1,96 @@
+{
+    "id": "alt_core",
+    "title": "Alternityd100 Core rulebook content",
+    "description": "A simple module created as a demo for working in the Foundry Virtual Tabletop framework.",
+    "authors": [
+      {
+      "name": "bob"
+      }
+      ],
+    "version": "0.1.0",
+    "compatibility": {
+      "minimum": "10",
+      "verified": "10"
+    },
+
+    "packs": [
+ {	
+    "name": "achievements",
+    "label": "Achievements",
+    "system": "Alternityd100",
+    "path": "./packs/achievements.db",
+    "type": "Item"
+},
+{	
+  "name": "armor",
+  "label": "Armor",
+  "system": "Alternityd100",
+  "path": "./packs/armor.db",
+  "type": "Item"
+},
+{	
+  "name": "characters",
+  "label": "Characters",
+  "system": "Alternityd100",
+  "path": "./packs/characters.db",
+  "type": "Actor"
+},
+{	
+  "name": "starships",
+  "label": "Starships",
+  "system": "Alternityd100",
+  "path": "./packs/starships.db",
+  "type": "Actor"
+},
+{	
+  "name": "starshipcomp",
+  "label": "Starship Componants",
+  "system": "Alternityd100",
+  "path": "./packs/starshipcomp.db",
+  "type": "Item"
+},
+{	
+  "name": "perks",
+  "label": "Perks & Flaws",
+  "system": "Alternityd100",
+  "path": "./packs/perks.db",
+  "type": "Item"
+},
+{	
+  "name": "weapons",
+  "label": "Weapons",
+  "system": "Alternityd100",
+  "path": "./packs/weapons.db",
+  "type": "Item"
+},
+{	
+  "name": "species",
+  "label": "Species",
+  "system": "Alternityd100",
+  "path": "./packs/species.db",
+  "type": "Item"
+}
+,
+{	
+  "name": "fargo",
+  "label": "Fargo",
+  "system": "Alternityd100",
+  "path": "./packs/fargo.db",
+  "type": "Scene"
+}
+    ],
+
+    "relationships": {
+        "systems": [{
+          "id": "Alternityd100",
+          "type": "system",
+          "manifest": "",
+          "compatibility": {
+            "verified": "0.0.0"
+          }
+        }]
+      },
+      "url": "",
+    "manifest": "",
+    "download": ""
+  }
