@@ -90,7 +90,16 @@
           }
         }]
       },
-      "url": "",
-    "manifest": "",
-    "download": ""
+      "url": "https://github.com/nzlbob/alt_core",
+    "manifest": "https://raw.githubusercontent.com/nzlbob/alt_core/main/module.json",
+    "download": "https://github.com/nzlbob/alt_core/archive/refs/heads/main.zip",
+    "media": [
+      {
+          "type": "setup",
+          "url": "modules/alt_core/images/VTTlogo3.png",
+          "thumbnail": "modules/alt_core/images/VTTlogo3.png"
+      }
+    ]
+ 
+ 
   }
