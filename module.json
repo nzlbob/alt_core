@@ -1,7 +1,7 @@
 {
     "id": "alt_core",
     "title": "Alternityd100 Core rulebook content",
-    "description": "A simple module created as a demo for working in the Foundry Virtual Tabletop framework.",
+    "description": "A work in progress Module that contains Objects from the core rulebook. Maybe eved a few items from the Star*Drive AEG",
     "authors": [
       {
       "name": "bob"
@@ -98,7 +98,12 @@
           "type": "setup",
           "url": "modules/alt_core/images/VTTlogo3.png",
           "thumbnail": "modules/alt_core/images/VTTlogo3.png"
-      }
+      },
+      {
+        "type": "cover",
+        "link": "https://raw.githubusercontent.com/nzlbob/alt_core/main/images/VTTlogo3.png"
+    }
+
     ]
  
  
