@@ -1,3 +1,7 @@
-2023/09/25-20:17:55.833 472c Recovering log #1117
-2023/09/25-20:17:56.168 472c Delete type=0 #1117
-2023/09/25-20:17:56.168 472c Delete type=3 #1116
+2023/09/30-17:53:40.937 28fc Recovering log #1140
+2023/09/30-17:53:41.025 28fc Delete type=0 #1140
+2023/09/30-17:53:41.025 28fc Delete type=3 #1138
+2023/09/30-18:28:54.253 ac4 Level-0 table #1145: started
+2023/09/30-18:28:54.253 ac4 Level-0 table #1145: 0 bytes OK
+2023/09/30-18:28:54.308 ac4 Delete type=0 #1143
+2023/09/30-18:28:54.349 ac4 Manual compaction at level-0 from '!items!8jsSbvobZbYFP81H' @ 72057594037927935 : 1 .. '!items!xrQxYuxCXQZfoSqP' @ 0 : 0; will stop at (end)

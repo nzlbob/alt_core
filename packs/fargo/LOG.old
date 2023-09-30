@@ -1,3 +1,7 @@
-2023/09/25-20:17:56.197 6028 Recovering log #1118
-2023/09/25-20:17:56.471 6028 Delete type=0 #1118
-2023/09/25-20:17:56.471 6028 Delete type=3 #1117
+2023/09/30-17:53:41.030 3094 Recovering log #1141
+2023/09/30-17:53:41.133 3094 Delete type=0 #1141
+2023/09/30-17:53:41.133 3094 Delete type=3 #1139
+2023/09/30-18:28:54.373 ac4 Level-0 table #1146: started
+2023/09/30-18:28:54.374 ac4 Level-0 table #1146: 0 bytes OK
+2023/09/30-18:28:54.432 ac4 Delete type=0 #1144
+2023/09/30-18:28:54.432 ac4 Manual compaction at level-0 from '!scenes!8snXpanrHqYvIVHv' @ 72057594037927935 : 1 .. '!scenes.walls!8snXpanrHqYvIVHv.zqDs1trdydKlcumV' @ 0 : 0; will stop at (end)

@@ -1,13 +1,13 @@
 {
     "id": "alt_core",
     "title": "Alternityd100 Core rulebook content",
-    "description": "A work in progress Module that contains Objects from the core rulebook. Maybe eved a few items from the Star*Drive AEG",
+    "description": "A work in progress Module that contains Objects from the core rulebook. Maybe even a few items from the Star*Drive AEG",
     "authors": [
       {
       "name": "bob"
       }
       ],
-    "version": "0.12",
+    "version": "0.13",
     "compatibility": {
       "minimum": "11",
       "verified": "11"
