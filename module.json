@@ -101,7 +101,8 @@
       },
       {
         "type": "cover",
-        "link": "https://raw.githubusercontent.com/nzlbob/alt_core/main/images/VTTlogo3.png"
+        "url": "https://raw.githubusercontent.com/nzlbob/alt_core/main/images/VTTlogo3.png",
+        "name": "Alternityd100 Core rulebook content"
     }
 
     ]

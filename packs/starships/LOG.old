@@ -1,7 +1,7 @@
-2023/09/30-17:53:40.453 28fc Recovering log #1152
-2023/09/30-17:53:40.543 28fc Delete type=0 #1152
-2023/09/30-17:53:40.543 28fc Delete type=3 #1150
-2023/09/30-18:28:54.220 ac4 Level-0 table #1157: started
-2023/09/30-18:28:54.220 ac4 Level-0 table #1157: 0 bytes OK
-2023/09/30-18:28:54.253 ac4 Delete type=0 #1155
-2023/09/30-18:28:54.349 ac4 Manual compaction at level-0 from '!actors!EBudAC35tHlJK8mQ' @ 72057594037927935 : 1 .. '!actors.items!jmROBPQ8iYW2YRHh.mWZ0sR4QT3G6cjKX' @ 0 : 0; will stop at (end)
+2023/10/01-16:47:48.784 4bf8 Recovering log #1170
+2023/10/01-16:47:48.867 4bf8 Delete type=0 #1170
+2023/10/01-16:47:48.867 4bf8 Delete type=3 #1168
+2023/10/01-16:53:17.360 521c Level-0 table #1175: started
+2023/10/01-16:53:17.360 521c Level-0 table #1175: 0 bytes OK
+2023/10/01-16:53:17.400 521c Delete type=0 #1173
+2023/10/01-16:53:17.476 521c Manual compaction at level-0 from '!actors!EBudAC35tHlJK8mQ' @ 72057594037927935 : 1 .. '!actors.items!jmROBPQ8iYW2YRHh.mWZ0sR4QT3G6cjKX' @ 0 : 0; will stop at (end)
