@@ -7,7 +7,7 @@
       "name": "bob"
       }
       ],
-    "version": "0.13",
+    "version": "0.14",
     "compatibility": {
       "minimum": "11",
       "verified": "11"
@@ -77,7 +77,19 @@
   "system": "Alternityd100",
   "path": "./packs/fargo.db",
   "type": "Scene"
-}
+},
+  {
+    "label": "Psionics",
+    "type": "Item",
+    "name": "psionics",
+    "path": "packs/psionics",
+    "system": "Alternityd100",
+    "ownership": {
+      "PLAYER": "OBSERVER",
+      "ASSISTANT": "OWNER"
+    },
+    "flags": {}
+  }
     ],
 
     "relationships": {
