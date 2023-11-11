@@ -32,6 +32,17 @@
         "name": "Characrter Equipment",
         "packs": ["armor", "weapons"],
         "color": "#005755"
+      },
+      {
+        "name": "Characters",
+        "packs": ["characters"],
+        "color": "#6f140c"
+      }
+    ],
+      {
+        "name": "Starships",
+        "packs": ["starships"],
+        "color": "#bf00ff"
       }
     ],
   
