@@ -7,12 +7,34 @@
       "name": "bob"
       }
       ],
-    "version": "0.16",
+    "version": "0.17",
     "compatibility": {
       "minimum": "11",
       "verified": "11"
     },
-
+    "packFolders": [
+      {
+        "name": "Starship Equipment",
+        "packs": ["starshipcomp"],
+        "color": "#777777"
+      },
+      {
+        "name": "Character Building",
+        "packs": [
+          "species",
+          "perks",
+          "psionics",
+          "achievements"
+        ],
+        "color": "#996300"
+      },
+      {
+        "name": "Characrter Equipment",
+        "packs": ["armor", "weapons"],
+        "color": "#005755"
+      }
+    ],
+  
     "packs": [
  {	
     "name": "achievements",
