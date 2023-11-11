@@ -38,7 +38,7 @@
         "packs": ["characters"],
         "color": "#6f140c"
       }
-    ],
+    ,
       {
         "name": "Starships",
         "packs": ["starships"],
