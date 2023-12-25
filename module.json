@@ -7,7 +7,7 @@
       "name": "bob"
       }
       ],
-    "version": "0.17",
+    "version": "0.18",
     "compatibility": {
       "minimum": "11",
       "verified": "11"
@@ -24,13 +24,22 @@
           "species",
           "perks",
           "psionics",
-          "achievements"
+          "achievements",
+          "profession"
         ],
         "color": "#996300"
       },
       {
         "name": "Characrter Equipment",
-        "packs": ["armor", "weapons"],
+        "packs": ["armor",
+         "weapons",
+         "clothing",
+         "communications",
+         "medical",
+         "pharmaceuticals",
+        "professional"
+
+        ],
         "color": "#005755"
       },
       {
@@ -43,6 +52,12 @@
         "name": "Starships",
         "packs": ["starships"],
         "color": "#bf00ff"
+      }
+      ,
+      {
+        "name": "Scenes",
+        "packs": ["fargo"],
+        "color": "#235683"
       }
     ],
   
@@ -97,13 +112,55 @@
   "type": "Item"
 },
 {	
+  "name": "clothing",
+  "label": "Clothing and Accessories",
+  "system": "Alternityd100",
+  "path": "./packs/clothing.db",
+  "type": "Item"
+},
+{	
+  "name": "communications",
+  "label": "Communications",
+  "system": "Alternityd100",
+  "path": "./packs/communications.db",
+  "type": "Item"
+},
+{	
+  "name": "medical",
+  "label": "Medical Gear",
+  "system": "Alternityd100",
+  "path": "./packs/medical.db",
+  "type": "Item"
+},
+{	
+  "name": "pharmaceuticals",
+  "label": "Pharmaceuticals",
+  "system": "Alternityd100",
+  "path": "./packs/pharmaceuticals.db",
+  "type": "Item"
+},
+{	
+  "name": "professional",
+  "label": "Professional Equipment",
+  "system": "Alternityd100",
+  "path": "./packs/professional.db",
+  "type": "Item"
+},
+
+{	
   "name": "species",
   "label": "Species",
   "system": "Alternityd100",
   "path": "./packs/species.db",
   "type": "Item"
-}
-,
+},
+{	
+  "name": "profession",
+  "label": "Profession",
+  "system": "Alternityd100",
+  "path": "./packs/profession.db",
+  "type": "Item"
+},
 {	
   "name": "fargo",
   "label": "Fargo",
