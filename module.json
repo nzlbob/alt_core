@@ -7,12 +7,20 @@
       "name": "bob"
       }
       ],
-    "version": "0.20",
+    "version": "0.21",
     "compatibility": {
       "minimum": "11",
       "verified": "11"
     },
     "packFolders": [
+      
+      {
+        "name": "Game Options",
+        "packs": [
+          "home-rules"
+      ],
+        "color": "#19d6b7"
+      },
       {
         "name": "Starship Equipment",
         "packs": ["starshipcomp"],
@@ -25,7 +33,8 @@
           "perks",
           "psionics",
           "achievements",
-          "profession"
+          "profession",
+          "xenogenesis"
         ],
         "color": "#996300"
       },
@@ -41,7 +50,9 @@
 
         ],
         "color": "#005755"
-      },
+      }
+      ,
+
       {
         "name": "Characters",
         "packs": ["characters"],
@@ -58,15 +69,56 @@
         "name": "Scenes",
         "packs": ["fargo"],
         "color": "#235683"
+      },
+      {
+        "name": "Xenogenesis",
+        "packs": [
+          "xenoitems",
+          "xenoactors",
+          "xenomacros"
+        ],
+        "color": "#326355"
       }
     ],
+
   
     "packs": [
+
+      {	
+        "name": "xenoactors",
+        "label": "Xeno Actors",
+        "system": "Alternityd100",
+        "type": "Actor"
+    },
+    {
+      "label": "Home Rules",
+      "type": "JournalEntry",
+      "name": "home-rules",
+
+      "system": "Alternityd100",
+      "ownership": {
+        "PLAYER": "OWNER",
+        "ASSISTANT": "OWNER"
+    }
+  },
+      {	
+        "name": "xenoitems",
+        "label": "Xeno Items",
+        "system": "Alternityd100",
+        "type": "Item"
+    },
+    {	
+      "name": "xenomacros",
+      "label": "Xeno Macros",
+      "system": "Alternityd100",
+      "type": "Macro"
+  },
+
  {	
     "name": "achievements",
     "label": "Achievements",
     "system": "Alternityd100",
-    "path": "./packs/achievements.db",
+
     "type": "Item"
 },
 {	
@@ -154,6 +206,8 @@
   "path": "./packs/species.db",
   "type": "Item"
 },
+
+
 {	
   "name": "profession",
   "label": "Profession",
