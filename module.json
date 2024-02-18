@@ -7,7 +7,7 @@
       "name": "bob"
       }
       ],
-    "version": "0.27",
+    "version": "0.28",
     "compatibility": {
       "minimum": "11",
       "verified": "11"
@@ -39,14 +39,15 @@
         "color": "#996300"
       },
       {
-        "name": "Characrter Equipment",
+        "name": "Character Equipment",
         "packs": ["armor",
          "weapons",
          "clothing",
          "communications",
          "medical",
          "pharmaceuticals",
-        "professional"
+        "professional",
+        "cybertech"
 
         ],
         "color": "#005755"
@@ -181,21 +182,24 @@
   "name": "medical",
   "label": "Medical Gear",
   "system": "Alternityd100",
-  "path": "./packs/medical.db",
   "type": "Item"
 },
 {	
   "name": "pharmaceuticals",
   "label": "Pharmaceuticals",
   "system": "Alternityd100",
-  "path": "./packs/pharmaceuticals.db",
+  "type": "Item"
+},
+{	
+  "name": "cybertech",
+  "label": "Cybertech",
+  "system": "Alternityd100",
   "type": "Item"
 },
 {	
   "name": "professional",
   "label": "Professional Equipment",
   "system": "Alternityd100",
-  "path": "./packs/professional.db",
   "type": "Item"
 },
 
