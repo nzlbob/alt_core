@@ -55,17 +55,10 @@
       ,
 
       {
-        "name": "Characters",
-        "packs": ["characters"],
+        "name": "Actors",
+        "packs": ["characters","starships","vehicles","npc"],
         "color": "#6f140c"
-      }
-    ,
-      {
-        "name": "Starships",
-        "packs": ["starships"],
-        "color": "#bf00ff"
-      }
-      ,
+      },
       {
         "name": "Scenes",
         "packs": ["fargo"],
@@ -137,24 +130,33 @@
   "type": "Actor"
 },
 {	
+  "name": "vehicles",
+  "label": "Vehicles",
+  "system": "Alternityd100",
+  "type": "Actor"
+},
+{	
+  "name": "NPC",
+  "label": "NPC's",
+  "system": "Alternityd100",
+  "type": "Actor"
+},
+{	
   "name": "starships",
   "label": "Starships",
   "system": "Alternityd100",
-  "path": "./packs/starships.db",
   "type": "Actor"
 },
 {	
   "name": "starshipcomp",
   "label": "Starship Componants",
   "system": "Alternityd100",
-  "path": "./packs/starshipcomp.db",
   "type": "Item"
 },
 {	
   "name": "perks",
   "label": "Perks & Flaws",
   "system": "Alternityd100",
-  "path": "./packs/perks.db",
   "type": "Item"
 },
 {	
