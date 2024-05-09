@@ -7,7 +7,7 @@
       "name": "bob"
       }
       ],
-    "version": "0.31",
+    "version": "0.32",
     "compatibility": {
       "minimum": "11",
       "verified": "11"
@@ -69,6 +69,8 @@
         "packs": [
           "xenoitems",
           "xenoactors",
+          "robotitems",
+          "robotactors",
           "xenomacros"
         ],
         "color": "#326355"
@@ -84,6 +86,12 @@
         "system": "Alternityd100",
         "type": "Actor"
     },
+    {	
+      "name": "robotactors",
+      "label": "Robot Actors",
+      "system": "Alternityd100",
+      "type": "Actor"
+  },
     {
       "label": "Home Rules",
       "type": "JournalEntry",
@@ -101,6 +109,12 @@
         "system": "Alternityd100",
         "type": "Item"
     },
+    {	
+      "name": "robotitems",
+      "label": "Robot Items",
+      "system": "Alternityd100",
+      "type": "Item"
+  },
     {	
       "name": "xenomacros",
       "label": "Xeno Macros",
