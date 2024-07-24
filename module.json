@@ -7,10 +7,10 @@
       "name": "bob"
       }
       ],
-    "version": "0.32",
+    "version": "0.33",
     "compatibility": {
-      "minimum": "11",
-      "verified": "11"
+      "minimum": "12",
+      "verified": "12"
     },
     "packFolders": [
       
