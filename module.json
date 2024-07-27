@@ -150,7 +150,7 @@
   "type": "Actor"
 },
 {	
-  "name": "NPC",
+  "name": "npc",
   "label": "NPC's",
   "system": "Alternityd100",
   "type": "Actor"

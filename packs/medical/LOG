@@ -1,7 +1,0 @@
-2024/07/24-20:22:27.516 2d64 Recovering log #633
-2024/07/24-20:22:27.587 2d64 Delete type=0 #633
-2024/07/24-20:22:27.587 2d64 Delete type=3 #631
-2024/07/24-20:23:29.351 f4 Level-0 table #638: started
-2024/07/24-20:23:29.351 f4 Level-0 table #638: 0 bytes OK
-2024/07/24-20:23:29.378 f4 Delete type=0 #636
-2024/07/24-20:23:29.403 f4 Manual compaction at level-0 from '!items!7BkE66werW8xMrZa' @ 72057594037927935 : 1 .. '!items!mWfVOxFAgHXe0E8q' @ 0 : 0; will stop at (end)

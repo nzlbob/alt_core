@@ -1,7 +1,0 @@
-2024/07/24-20:22:26.806 15a4 Recovering log #2193
-2024/07/24-20:22:26.861 15a4 Delete type=0 #2193
-2024/07/24-20:22:26.861 15a4 Delete type=3 #2191
-2024/07/24-20:23:28.913 f4 Level-0 table #2198: started
-2024/07/24-20:23:28.913 f4 Level-0 table #2198: 0 bytes OK
-2024/07/24-20:23:28.962 f4 Delete type=0 #2196
-2024/07/24-20:23:29.120 f4 Manual compaction at level-0 from '!actors!AcG68kkQXcm9wBzN' @ 72057594037927935 : 1 .. '!actors.items!xaGOaTm9tCxNXvlL.sgGSJTL4wZ3VfVJR' @ 0 : 0; will stop at (end)
