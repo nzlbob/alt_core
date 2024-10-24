@@ -7,7 +7,7 @@
       "name": "bob"
       }
       ],
-    "version": "0.33",
+    "version": "0.34",
     "compatibility": {
       "minimum": "12",
       "verified": "12"
@@ -56,7 +56,7 @@
 
       {
         "name": "Actors",
-        "packs": ["characters","starships","vehicles","npc"],
+        "packs": ["characters","starships","vehicles","npc","npcstarships"],
         "color": "#6f140c"
       },
       {
@@ -153,13 +153,34 @@
   "name": "npc",
   "label": "NPC's",
   "system": "Alternityd100",
-  "type": "Actor"
+  "type": "Actor",
+  "ownership": {
+    "PLAYER": "NONE",
+    "ASSISTANT": "OBSERVER",
+    "TRUSTED": "NONE"
+  }
 },
 {	
   "name": "starships",
   "label": "Starships",
   "system": "Alternityd100",
-  "type": "Actor"
+  "type": "Actor",
+  "ownership": {
+    "PLAYER": "OBSERVER",
+    "ASSISTANT": "OBSERVER",
+    "TRUSTED": "OBSERVER"
+  }
+},
+{	
+  "name": "npcstarships",
+  "label": "NPC Starships",
+  "system": "Alternityd100",
+  "type": "Actor",
+  "ownership": {
+    "PLAYER": "NONE",
+    "ASSISTANT": "OBSERVER",
+    "TRUSTED": "NONE"
+  }
 },
 {	
   "name": "starshipcomp",
