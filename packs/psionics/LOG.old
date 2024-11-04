@@ -1,3 +1,5 @@
-2024/10/31-18:45:21.376 26fc Recovering log #1338
-2024/10/31-18:45:21.540 26fc Delete type=0 #1338
-2024/10/31-18:45:21.540 26fc Delete type=3 #1337
+2024/11/04-19:41:22.878 ebc Recovering log #1383
+2024/11/04-19:41:22.878 ebc Level-0 table #1385: started
+2024/11/04-19:41:23.019 ebc Level-0 table #1385: 64920 bytes OK
+2024/11/04-19:41:23.190 ebc Delete type=0 #1383
+2024/11/04-19:41:23.191 ebc Delete type=3 #1382
